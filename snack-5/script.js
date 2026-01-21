@@ -4,5 +4,6 @@ const nums = [2, 8, 4, 7, 12, 87];
 // Risultato: [2, 8, 4, 12]
 
 // # SOLUZIONE
+console.log(nums);
 const evenNums = nums.filter((num) => !(num % 2));
 console.log(evenNums);
